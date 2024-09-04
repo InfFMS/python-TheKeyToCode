@@ -3,3 +3,6 @@
 # Пример:
 # Ввод: 123
 # Вывод: 321
+
+n = int(input("Please, enter number: "))
+print(str(n)[2] + str(n)[1] + str(n)[0])

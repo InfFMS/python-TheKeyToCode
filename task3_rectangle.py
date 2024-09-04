@@ -3,3 +3,7 @@
 # Пример:
 # Ввод: 4, 7
 # Вывод: Периметр: 22, Площадь: 28
+n = int(input("Enter first side: "))
+m = int(input("Enter second side: "))
+
+print("Peremeter is " + str(2*(n+m)) + " and Square is " + str(n*m))
