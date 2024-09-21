@@ -3,3 +3,5 @@
 # Пример:
 # Ввод: 9, 4
 # Вывод: Целое деление: 2, Остаток: 1
+a, b = map(int, input("Enter first & second number in one line: ").split())
+print("Integer division:",int(a/b),"Remainder:",a%b)

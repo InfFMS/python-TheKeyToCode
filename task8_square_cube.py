@@ -3,3 +3,5 @@
 # Пример:
 # Ввод: 5
 # Вывод: Квадрат: 25, Куб: 125
+a = int(input("Enter number: "));
+print("Square:", a**2, "Cube:", a**3);

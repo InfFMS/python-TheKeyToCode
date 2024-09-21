@@ -3,3 +3,8 @@
 # Пример:
 # Ввод: Первое число: 10, Второе число: 2, Операция: *
 # Вывод: Результат: 20
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+operation = input("Enter operation: ")
+t = {"*":(a*b),"+":(a+b),"-":(a-b),"/":(a/b),"^":(a**b)};
+print(t[operation])
