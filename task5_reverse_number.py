@@ -5,4 +5,4 @@
 # Вывод: 321
 
 n = int(input("Please, enter number: "))
-print(str(n)[2] + str(n)[1] + str(n)[0])
+print(int((n%10)*100) + int(int((n/10)%10)*10) + int(n/100))
